@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+/* 초기화 start */
+
+/* 여백초기화 */
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, input, fieldset,
+legend, p, select, table, th, td, tr, textarea, button, form
+{margin : 0; padding : 0;}
+
+/* 리스트 타입 제거 */
+ol, ul, li{list-style-type : none;}
+
+a:link {color: #000000; text-decoration: none;}     
+a:visited {color: #000000; text-decoration: none;}      
+a:hover   {color: #000000; text-decoration: none;}   
+a:active  {color: #000000; text-decoration: none;} 
+
+
+/* clearfix */
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after
+{display: block; content: ""; line-height: 0;}
+.clearfix:after {clear: both;}
+
+/* table */
+table{
+	border-collapse : collapse;
+}
+
+
+/* 초기화 end */
+
+/* layout */
+/* wrap = hole div */
+#wrap{
+	margin : 0px auto; /* margin-auto : 자동으로 가운데 정렬 */
+	width : 1000px;
+}
+
+
+/* header - h1(mysite) , login & apply */
+
+#header{
+	/* background-color : #0000FF;  */
+	padding : 10px 0px 10px 0px;
+	border-bottom : 1px solid #BFBFBF;
+}
+
+h1 {
+	float : left;
+	color : #79B30B;
+	font-size : 35px;
+	font-weight : bold;
+}
+
+h1 a:visited{
+	color: #79B30B; text-decoration: none;  
+}
+
+#header ul{
+	float : right;
+	margin : 12px 0px 0px 0px;
+}
+
+#header ul>li{
+	float : left;
+	margin : 0px 0px 0px 20px;
+	font-size : 15px;
+}
+
+/* header end*/
+
+/* nav */
+#nav ul{
+	border-bottom : 1px solid #BFBFBF;
+}
+
+#nav ul>li{
+	float : left;
+	font-weight: bold;
+	margin : 0px 80px 0px 80px;
+	padding : 10px 10px 10px 10px;
+}
+/* nav end */
+
+/* aside start */
+aside{
+	float : left;
+}
+
+aside>h2{
+	background-color : #CDCDCD;
+	width : 90px;
+	height : 40px;
+	font-size : 20px;
+	margin : 20px 0px 5px 0px;
+	padding : 20px 20px 10px 50px;
+}
+
+aside>ul>li{
+	border : 1px solid #000000;
+	margin : 0px 0px 5px 0px;
+	padding : 5px 0px 5px 5px;
+}
+
+/* aside end */
+
+/* main start */
+main {
+	margin : 20px 0px 0px 180px;
+}
+
+/* title setting */
+.title{
+	border-bottom : 1px solid #000000;
+	height : 60px;
+	margin : 0px 0px 20px 0px;
+}
+
+h3 {
+	float : left;
+	margin : 25px 0px 0px 0px;
+}
+
+/* breadcrumb */
+.title ol>li{
+	float : right;
+	font-size : 12px;
+	margin : 25px 2px 0px 2px;
+}
+
+.title ol>li+li:after{
+	content : " > ";
+}
+
+/* reserach button */
+
+.research{
+	display : block;
+	float : right;
+	margin : 0px 0px 10px 580px;
+	}
+
+.text-search{
+	padding : 3px 0px 3px 0px;
+}
+
+.search-button{
+	padding : 2px 15px 2px 15px;
+}
+
+/* table */
+.bulletin-table{
+	display : block;
+}
+
+table{
+	margin : 10px 0px 0px 0px;
+	border-top : 1px solid #000000;
+	border-bottom : 1px solid #000000;
+}
+
+/* thead */
+thead{
+	background-color : #CDCDCD;
+}
+
+thead>tr>th{
+	padding : 7px 0px 7px 0px;
+}
+
+/* tbody */
+tbody{
+	text-align : center;
+}
+
+tbody>tr{
+	border-bottom : 1px dotted #000000;
+}
+
+tbody>tr>td{
+	padding : 5px 0px 5px 0px;
+}
+
+/* page links */
+.pages{
+	width : 300px;
+	float : left;
+	margin : 0px 0px 0px 250px;
+}
+
+.pages ol>li{
+	float : left;
+	margin : 5px 5px 0px 5px;
+	
+}
+
+/* page a-link */
+
+.pages ol>li>a:hover{
+	color: #79B30B; text-decoration: none; 
+}
+
+
+/* write button */
+.bottom-line{
+	width : 0px;
+}
+
+.write{
+	display : block;
+	width : 75px;
+	float : right;
+	
+}
+
+.write-button{
+	margin : 10px 0px 20px 0px;
+	padding : 2px 15px 2px 15px;
+}
+/* main end */
+
+/* footer start */
+#footer{
+	background-color : #CDCDCD;
+}
+
+#footer p{
+	padding : 20px 0px 20px 370px;
+	font-size : 12px;
+}
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
