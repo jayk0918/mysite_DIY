@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* main start */
+
+#main{
+	margin : 0px 0px 0px 180px;
+}
+
+
+/* main header */
+/* title setting */
+#main-header{
+	border-bottom : 1px solid #000000;
+	height : 60px;
+	margin : 0px 0px 20px 0px;
+}
+
+h3 {
+	float : left;
+	margin : 20px 0px 0px 0px;
+	font-size : 25px;
+}
+
+/* breadcrumb */
+#main-header ol>li{
+	float : right;
+	font-size : 14px;
+	margin : 25px 2px 0px 2px;
+}
+
+#main-header ol>li+li:after{
+	content : " > ";
+}
+
+
+/* main-body start */
+#main-body {
+	margin : 0px 0px 0px opx;
+}
+
+/* main-footer */
+
+button[type="reset"]{
+	cursor : pointer;
+}
+
+button[type = "submit"]{
+	cursor : pointer;
+}
+
+#main-footer{
+	text-align : center;
+	padding : 5px 5px 5px 5px;
+	font-size : 18px;
+}
+
+
+
+
+

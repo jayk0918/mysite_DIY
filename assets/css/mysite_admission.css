@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+input[type = "radio"]{
+	width : 15px;
+	height : 15px;
+	margin : 0px 20px 0px 5px;
+}
+
+input[type = "checkbox"]{
+	width : 15px;
+	height : 15px;
+	margin : 0px 20px 0px 5px;
+}
+
+button[type = "submit"]{
+	display : inline-block;
+	width : 15px;
+	height : 15px;
+	margin : 0px 20px 0px 5px;
+	padding : 5px 5px 5px 5px;
+}
+
+
+button [type = "reset"]{
+	width : 15px;
+	height : 15px;
+	margin : 0px 20px 0px 5px;
+}
+
+
+
+#main-body {
+	margin : 0px 0px 0px 0px;
+}
+.main-body-title {
+	display : inline-block;
+	width : 80px;
+	margin : 0px 10px 10px 0px;
+}
+
+textarea{
+	width : 80%;
+	height : 70px
+}
+
+
+
+
+
+
+
+

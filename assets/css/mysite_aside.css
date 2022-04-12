@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* aside start */
+aside{
+	float : left;
+}
+
+aside>h2{
+	background-color : #CDCDCD;
+	width : 90px;
+	text-align : center;
+	
+	font-size : 20px;
+	margin : 20px 0px 10px 0px;
+	padding : 20px 20px 20px 20px;
+}
+
+aside>ul>li{
+	border : 1px solid #000000;
+	margin : 0px 0px 5px 0px;
+	padding : 5px 0px 5px 5px;
+}
+
+/* aside end */
+
