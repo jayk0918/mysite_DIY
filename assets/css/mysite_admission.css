@@ -1,6 +1,33 @@
 @charset "UTF-8";
 
 
+.f-left{
+	float : left;
+	width : 105px;
+}
+
+/* main-body */
+#main-body {
+	margin : 0px 0px 0px 0px;
+}
+
+#main-body div{
+	margin : 0px 0px 10px 0px;
+}
+.main-body-title {
+	display : inline-block;
+	width : 100px;
+	margin : 0px 10px 10px 0px;
+}
+
+#address{
+	width : 68%;
+}
+
+
+/* inputs */
+
+
 input[type = "radio"]{
 	width : 15px;
 	height : 15px;
@@ -13,40 +40,22 @@ input[type = "checkbox"]{
 	margin : 0px 20px 0px 5px;
 }
 
-button[type = "submit"]{
-	display : inline-block;
-	width : 15px;
-	height : 15px;
-	margin : 0px 20px 0px 5px;
-	padding : 5px 5px 5px 5px;
-}
 
-
-button [type = "reset"]{
-	width : 15px;
-	height : 15px;
-	margin : 0px 20px 0px 5px;
-}
-
-
-
-#main-body {
-	margin : 0px 0px 0px 0px;
-}
-.main-body-title {
-	display : inline-block;
-	width : 80px;
-	margin : 0px 10px 10px 0px;
-}
+/* introduce */
 
 textarea{
-	width : 80%;
-	height : 70px
+	width : 70%;
+	height : 70px;
 }
 
+/* main-footer */
 
-
-
+#main-footer button{
+	text-align : center;
+	width : 60px;
+	height : 30px;
+	margin: 0px 5px 0px 5px;
+}
 
 
 
